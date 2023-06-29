@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+     table ,tr, td {
+
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+     }
+
+
+    </style>
+</head>
+
+<body>
+    <form>
+    <table>
+        
+        
+        <tr>
+            <th>Control Type</th>
+            <th>Data</th>
+            <th>Control</th>
+        </tr>
+        <tr>
+            <td>Test Box</td>
+            <td>Name</td>
+            <td><input type="text" placeholder="Enter Name"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>password:</td>
+            <td><input type="password" placeholder=""></td>
+        </tr>
+        <tr>
+            <td>Text Area</td>
+            <td>Address:</td>
+            <td><textarea placeholder="Enter Adress"></textarea></td>
+        </tr>
+        <tr>
+            <td>Drop down list</td>
+            <td>Area:</td>
+            <td><select><option value="Lamborghini">Lamborghini</option>
+            ><option value="BMW">BMW</option>
+            ><option value="MERSEDES">MERSEDES</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td>Check Box</td>
+            <td>Hobbies:</td>
+            <td>
+                <input type="checkbox" name="Sport" value="Sport">
+                <label for="Sport">Sport</label> <br>
+                <input type="checkbox" name="Reading" value="Reading">
+                <label for="Reading">Reading</label> <br>
+                <input type="checkbox" name="T.V" value="T.V">
+                <label for="T.V">T.V</label> <br>
+                <input type="checkbox" name="Internet" value="Internet">
+                <label for="Internet">Internet</label>
+            </td>
+        </tr>
+        
+        <tr>
+        <td>Radio Buttons</td>
+        <td>Gender</td>
+        <td>
+            <fieldset>
+            <legend>Gender selection</legend>
+            <div>
+            <input type="radio" value="Male">
+            <label for="Male">Male</label> <br>
+            <input type="radio" value="Female">
+            <label for="Female">Female</label>
+        </div>
+    </fieldset>
+        </td>
+        <tr>
+        
+        <tr>
+            <td>File upload</td>
+            <td>Your image</td>
+            <td><input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Buttons</td>
+            <td>Actions</td>
+            
+            <td><button type="button">Submit!</button>
+            <button type="button">Reset</button>
+            <button type="button">Click me</button>
+                </td>
+            
+        </tr>
+
+        </tr>
+
+</table>
+</form>
+
+</body>
+
+</html>
